@@ -84,6 +84,9 @@ namespace WpfApp1
             //data_3.ItemsSource = VisualArray.ToDataTable(mas_4).DefaultView;
         }
 
-
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("");
+        }
     }
 }

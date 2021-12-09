@@ -15,12 +15,14 @@ namespace WpfApp1
             _triada[0] = 0;
             _triada[1] = 0;
             _triada[2] = 0;
+           
         }
         public Triad(int firstnum, int secondnum, int thirdnum)
         {
             _triada[0] = firstnum;
             _triada[1] = secondnum;
             _triada[2] = thirdnum;
+            
         }
         public int FirstNumber { get => _triada[0]; set => _triada[0] = value; }
         public int SecondNumber { get => _triada[1]; set => _triada[1] = value; }
@@ -64,6 +66,9 @@ namespace WpfApp1
                 if (item != number) return false;
             }
             return true;
+            
+               
+
         }
     }
 }

@@ -27,5 +27,6 @@
         <DataGrid Name="data" HorizontalAlignment="Left" Height="46" Margin="12,42,0,0" VerticalAlignment="Top" Width="287"/>
         <DataGrid Name="data_2" HorizontalAlignment="Left" Height="46" Margin="12,155,0,0" VerticalAlignment="Top" Width="287"/>
         <DataGrid Name="data_3" HorizontalAlignment="Left" Height="46" Margin="12,278,0,0" VerticalAlignment="Top" Width="287"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="507,338,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
     </Grid>
 </Window>
